@@ -57,11 +57,21 @@ public class Etudiant {
         notations.add(n);
     }
 
-    public void afficherInfo(){
+    public void afficherInfo() {
         System.out.println("ID : " + id);
         System.out.println("Nom : " + nom);
         System.out.println("Moyenne : " + moyenne);
         System.out.println("Avis : " + avis);
+        System.out.println("Notes :");
+
+        for (Notation n : notations) {
+            System.out.println("  - " + n.getMatiere()
+                    + " | Coef : " + n.getCoef()
+                    + " | Note : " + n.getNote());
+        }
+
+        System.out.println("-------------------------------");
     }
+
 }
 
