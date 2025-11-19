@@ -23,7 +23,6 @@ public class Main {
 
             // afficher
             e.afficherInfo();
-
         } catch (Exception ex) {
             ex.printStackTrace();
         }
