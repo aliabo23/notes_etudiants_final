@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 
 public class Etudiant {
-    private int id;          // ajouté pour MySQL
+    private int id;
     private String nom;
     private float moyenne;
     private String avis;
@@ -16,7 +16,7 @@ public class Etudiant {
         this.notations = new ArrayList<>();
     }
 
-    // constructeur utilisé quand on récupère depuis MySQL
+
     public Etudiant(int id, String nom, float moyenne, String avis) {
         this.id = id;
         this.nom = nom;
