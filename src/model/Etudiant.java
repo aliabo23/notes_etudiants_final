@@ -33,7 +33,7 @@ public class Etudiant {
 
     public void setId(int id) { this.id = id; }
 
-    // ✔ correction ici !
+
     public float calculerMoyenne() {
         int sumCoef = 0;
         int sumCoefxNote = 0;
